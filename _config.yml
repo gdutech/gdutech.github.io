@@ -13,12 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: G. Dutech Portfolio & Blog
+title: Batteries Included
 email: guillaume.dutech@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Guillaume Dutech's Portfolio and blog. Data Science, AI, Visualization
 twitter_username: /@GuillaumeDutech
 github_username: gdutech
 minimal_mistakes_skin: dark
@@ -59,34 +57,30 @@ plugins:
   - jekyll-remote-theme
 
 author:
-  name   : "First Lastname"
+  name   : "Guillaume Dutech"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Data Scientist. Paris, France. 
+            All things Data, AI, Viz.
+            Python, Pandas, Sklearn, TensorFlow, PowerBI"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
+      url: "https://https://gdutech.github.io/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/GuillaumeDutech"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/gdutech"
 
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/GuillaumeDutech"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/gdutech"
 
 defaults:
   # _posts
@@ -114,3 +108,10 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+
+atom_feed:
+  hide: true
+
+google_site_verification: 
+  "QK7QqIK6ckQhEBIia3c1ZiPQ2mnYJNCk0AoDzDjxYIc"
